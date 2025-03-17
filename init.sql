@@ -16,5 +16,8 @@ INSERT INTO checklist.item (name, notes, quantity, category, completed)
 VALUES 
   ('Tofu', 'Extra Firm', null, 'Deli', false),
   ('Tomato', null, 2, 'Produce', false),
+  ('Eggs', '"we''re rich, bish!!', null, 'Dairy', false),
+  ('Beer', null, null, 'Beverage', true),
   ('Bread', 'Sourdough', null, 'Bakery', false),
-  ('Beer', null, null, 'Beverage', true);
+  ('Milk', null, null, 'Dairy', false),
+  ('Chips', 'Don''t get the healthy kind, they taste like cardboard', null, 'Snacks', true);
