@@ -13,3 +13,6 @@ Manually connect to the db from the host machine (note does not use conventional
 ## Resources
 * [Remember how psql do](https://www.tutorialspoint.com/postgresql/postgresql_insert_query.htm)
 * [mapping PascalCase to snake_case](https://github.com/efcore/EFCore.NamingConventions)
+
+## Notes
+* serial vs uuid for pk: use bigserial for internal identifier/pk, and uuid for external identifier
